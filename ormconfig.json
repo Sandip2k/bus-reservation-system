@@ -1,0 +1,13 @@
+{
+    "name": "default",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "bus_reservation_system",
+    "useUnifiedTopology": true,
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+        "src/models/**/*.*"
+    ]
+}
